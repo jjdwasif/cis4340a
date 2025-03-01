@@ -22,6 +22,9 @@ class TempFile {
     }
   }
 }
+
+
+
 // Compliant
 class TempFile {
   public static void main(String[] args) {
