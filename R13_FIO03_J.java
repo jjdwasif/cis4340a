@@ -1,3 +1,6 @@
+//Rule 13. Input Output (FIO)
+//FLO03-J. Remove temporary files before termination
+
 class TempFile {
   public static void main(String[] args) throws IOException{
     File f = File.createTempFile("tempnam",".tmp");
