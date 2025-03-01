@@ -1,3 +1,6 @@
+//Rule 08. Visibility and Atomicity (VNA)
+//VNA03-J. Do not assume that a group of calls to independently atomic methods is atomic
+
 final class Adder {
   private final AtomicReference<BigInteger> first;
   private final AtomicReference<BigInteger> second;
