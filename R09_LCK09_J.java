@@ -1,3 +1,7 @@
+//Rule 09. Locking (LCK)
+//LCK09-J. Do not perform operations that can block while holding a lock
+
+
 // Class Page is defined separately.
 // It stores and returns the Page name via getName()
 Page[] pageBuff = new Page[MAX_PAGE_SIZE];
