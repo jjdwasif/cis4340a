@@ -16,6 +16,9 @@ final class Adder {
     return first.get().add(second.get());
   }
 }
+
+
+
 // Compliant
 final class Adder {
   // ...
